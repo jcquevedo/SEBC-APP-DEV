@@ -1,6 +1,6 @@
 <code><b>[raken@cdh03 ~]$ flume-ng agent --conf conf --conf-file jobconf.conf --name a1 -Dflume.root.logger=INFO,console<b/>
 
-<br><b>[raken@cdh03 ~]$ hdfs dfs -ls -R /flume/raken<b>
+<br><b>[raken@cdh03 ~]$ hdfs dfs -ls -R /flume/raken<b/>
 <br>drwxrwxrwx   - raken supergroup          0 2018-05-15 18:49 /flume/raken/18-05-15
 <br>drwxrwxrwx   - raken supergroup          0 2018-05-15 18:45 /flume/raken/18-05-15/184431
 <br>-rw-r--r--   3 raken supergroup         38 2018-05-15 18:45 /flume/raken/18-05-15/184431/FlumeData.1526409871974
@@ -39,7 +39,7 @@
 <br>-rw-r--r--   3 raken supergroup         38 2018-05-15 18:49 /flume/raken/18-05-15/184914/FlumeData.1526410154012
 <br>drwxrwxrwx   - raken supergroup          0 2018-05-15 18:49 /flume/raken/18-05-15/184929
 <br>-rw-r--r--   3 raken supergroup         38 2018-05-15 18:49 /flume/raken/18-05-15/184929/FlumeData.1526410169013
-<br>[raken@cdh03 ~]$ hdfs dfs -cat /flume/raken/18-05-15/184652/FlumeData.1526410012990
+<br><b>[raken@cdh03 ~]$ hdfs dfs -cat /flume/raken/18-05-15/184652/FlumeData.1526410012990<b/>
 <br>hello world goodbye world hello again
 <br>this is a test it does not work hello
 <br>hello world goodbye world hello again
