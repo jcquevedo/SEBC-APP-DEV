@@ -1,4 +1,5 @@
-<code><br> # Name the components on this agent
+<code> 
+<br> # Name the components on this agent
 <br>a1.sources = r1<br>
 <br>a1.channels = c1<br>
 <br>a1.sinks = k1 k2<br>
