@@ -1,4 +1,9 @@
-<code> <b>[raken@cdh01 ~]$ sqoop job --show Day1<b/>
+<code><b> [raken@cdh01 ~]$ sqoop import --connect jdbc:postgresql://localhost:7432/scm --table cm_version --username scm --password 2BfxNqddSW -m 1 --target-dir hdfs://cdh02:8020/home/raken/testsqoop1/<b/>
+
+<br><b> [raken@cdh01 ~]$ sqoop job --create Day1 -- import --connect jdbc:postgresql://localhost:7432/scm --table cm_version --username scm -m 1 --target-dir hdfs://cdh02:8020/home/raken/testsqoop2/ <b/>
+<br>
+
+<b>[raken@cdh01 ~]$ sqoop job --show Day1<b/>
 Warning: /opt/cloudera/parcels/CDH-5.13.3-1.cdh5.13.3.p0.2/bin/../lib/sqoop/../accumulo does not exist! Accumulo imports will fail.
 Please set $ACCUMULO_HOME to the root of your Accumulo installation.
 18/05/15 16:45:07 INFO sqoop.Sqoop: Running Sqoop version: 1.4.6-cdh5.13.3
